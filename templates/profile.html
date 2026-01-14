@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+    <h1>Профиль пользователя</h1>
+    <p>Вы вошли как: <strong>{{ user.username }}</strong></p>
+    <p>Здесь потом можно будет добавить настройки, аватар и т.п.</p>
+{% endblock %}
